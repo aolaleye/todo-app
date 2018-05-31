@@ -1,6 +1,6 @@
 <div class="container">
 
-  <form>
+  <form #todoForm="ngForm" (ngSubmit)="todoSubmit(todoForm.value)">
     <div class="form-group">
       <h1 class="text-center text-primary">Todo App</h1>
       <div class="input-group-prepend">
