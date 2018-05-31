@@ -23,4 +23,14 @@ export class AppComponent {
     }
   }
 
+  todoSubmit(value:any, event: Event) {
+    event.preventDefault();
+    if (value!== "") {
+      // console.log(value)
+      this.todoArray.push(value)
+    } else {
+      alert("Please fill out field before submitting")
+    }
+  }
+
 }
