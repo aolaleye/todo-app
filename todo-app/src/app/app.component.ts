@@ -10,9 +10,12 @@ export class AppComponent {
 
   todoArray=[]
 
+  searchValue:string = '';
+
   addTodo(value) {
     this.todoArray.push(value)
     console.log(this.todoArray)
+    this.searchValue = null;
   }
 
   deleteItem(todo){
@@ -28,6 +31,7 @@ export class AppComponent {
     if (value!== "") {
       this.todoArray.push(value)
       console.log(this.todoArray)
+      this.searchValue = null;
     } else {
       alert("Please fill out field before submitting")
     }
