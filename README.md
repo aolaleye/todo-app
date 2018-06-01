@@ -1,11 +1,13 @@
 # Todo App
 
-#### __Overview:__
+_An Angular app that allows users to create a todo list and delete items from the list upon completion_
 
-* This application utilizes node.js, npm and Angular-CLI
-* Angular-CLI created and generated the components within this app. It also generated the services, router and directives. 
-* A user can add an item to the list _(submitting a form in Angular)_
-* A user can also delete an item from the list _(adding an event in Angular)_
+### __Overview__
+
+* This application utilizes Node.js, NPM and Angular-CLI
+* Angular-CLI created and generated the components, services, router and directives for the app
+* Users can add an item to the list _(submitting a form in Angular)_
+* Users can also delete any item from the list _(adding an event in Angular)_
 
 [![Todo App](todo.gif)](todo.gif)
 
