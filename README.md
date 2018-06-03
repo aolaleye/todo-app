@@ -1,6 +1,6 @@
 # Todo App
 
-__This Angular app allows users to create a todo list and delete items from the list upon completion__
+This Angular app allows users to create a todo list and delete items from the list upon completion
 
 #### __Overview:__
 
@@ -12,6 +12,3 @@ __This Angular app allows users to create a todo list and delete items from the 
 #
 
 [![Todo App](todo.gif)](todo.gif)
-
-
-
