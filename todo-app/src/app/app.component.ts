@@ -33,7 +33,7 @@ export class AppComponent {
       console.log(this.todoArray)
       this.searchValue = null;
     } else {
-      alert("Please fill out field before submitting")
+      alert("Please enter a Todo before submitting")
     }
   }
 
